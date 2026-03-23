@@ -1,0 +1,66 @@
+:root {
+    /* Color Palette - Light Mode (Default) */
+    --color-primary: #2563eb;       /* Royal Blue */
+    --color-primary-hover: #1d4ed8;
+    --color-secondary: #64748b;     /* Slate */
+    --color-accent: #f59e0b;        /* Amber */
+    
+    --color-bg: #ffffff;
+    --color-bg-secondary: #f8fafc;  /* Very Light Slate */
+    --color-bg-card: #ffffff;
+    
+    --color-text: #0f172a;          /* Dark Slate */
+    --color-text-muted: #64748b;
+    --color-border: #e2e8f0;
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Typography */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-mono: 'Fira Code', monospace;
+    
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+    
+    /* Layout */
+    --container-width: 1200px;
+    --header-height: 70px;
+    --border-radius: 0.5rem;
+    --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+    /* Color Palette - Dark Mode */
+    --color-primary: #3b82f6;       /* Lighter Blue */
+    --color-primary-hover: #60a5fa;
+    --color-secondary: #94a3b8;     /* Lighter Slate */
+    
+    --color-bg: #0f172a;            /* Dark Slate */
+    --color-bg-secondary: #1e293b;  /* Slightly Lighter */
+    --color-bg-card: #1e293b;
+    
+    --color-text: #f8fafc;          /* Off-white */
+    --color-text-muted: #94a3b8;
+    --color-border: #334155;
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+}

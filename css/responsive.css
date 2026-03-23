@@ -1,0 +1,23 @@
+/* Global Responsive Tweaks */
+
+/* Extra Small Devices (Phones, 480px and down) */
+@media (max-width: 480px) {
+    :root {
+        --text-4xl: 1.75rem;
+        --text-3xl: 1.5rem;
+        --spacing-3xl: 2rem;
+        --spacing-2xl: 1.5rem;
+    }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+}
+
+/* Small Devices (Tablets, 768px and down) */
+@media (max-width: 768px) {
+    /* Adjust grid columns if not handled specifically */
+    .grid-3 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
