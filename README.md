@@ -75,3 +75,5 @@ Right-click `index.html` and select "Open with Live Server".
 ## License
 
 This template is open-source and free to use for personal or commercial projects.
+
+![Alt text](https://imglink.cc/cdn/nDfjsws24Y.png)
